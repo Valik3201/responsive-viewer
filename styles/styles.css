@@ -123,7 +123,7 @@ input:focus {
 
 .device-wrapper {
   position: relative;
-  left: 50%;
+  left: 54%;
   transform: translateX(-50%);
   margin-top: 50px;
   margin-bottom: 50px;
@@ -163,19 +163,13 @@ iframe {
   height: 795px;
   top: 18px;
   left: 6px;
-  border-bottom-right-radius: 50px;
-  border-bottom-left-radius: 50px;
+  border-bottom-right-radius: 55px;
+  border-bottom-left-radius: 55px;
   overflow-y: hidden;
-  transform: scale(0.23);
+  transform: scale(0.212);
   -webkit-transform: scale(0.212);
-  -o-transform: scale(0.219);
-  -ms-transform: scale(0.219);
-  -moz-transform: scale(0.219);
   transform-origin: top left;
   -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  -moz-transform-origin: top left;
 }
 
 .tablet {
@@ -197,16 +191,10 @@ iframe {
   border-radius: 18px;
   overflow-y: hidden;
   z-index: 0;
-  transform: scale(0.223);
+  transform: scale(0.215);
   -webkit-transform: scale(0.215);
-  -o-transform: scale(0.223);
-  -ms-transform: scale(0.223);
-  -moz-transform: scale(0.223);
   transform-origin: top left;
   -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  -moz-transform-origin: top left;
 }
 
 .laptop {
@@ -229,14 +217,8 @@ iframe {
   z-index: 1;
   transform: scale(0.277);
   -webkit-transform: scale(0.277);
-  -o-transform: scale(0.277);
-  -ms-transform: scale(0.277);
-  -moz-transform: scale(0.277);
   transform-origin: top left;
   -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  -moz-transform-origin: top left;
 }
 
 .desktop {
@@ -257,14 +239,8 @@ iframe {
   height: 910px;
   transform: scale(0.3181);
   -webkit-transform: scale(0.3181);
-  -o-transform: scale(0.3181);
-  -ms-transform: scale(0.3181);
-  -moz-transform: scale(0.3181);
   transform-origin: top left;
   -webkit-transform-origin: top left;
-  -o-transform-origin: top left;
-  -ms-transform-origin: top left;
-  -moz-transform-origin: top left;
 }
 
 .info {
