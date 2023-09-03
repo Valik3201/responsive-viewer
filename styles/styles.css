@@ -129,7 +129,7 @@ iframe {
 }
 
 .mobile {
-  background-image: url("/ResponsiveViewer/images/iPhone-14-Pro.png");
+  background-image: url("/responsive-viewer/images/iPhone-14-Pro.png");
   position: absolute;
   width: 95px;
   height: 196px;
@@ -160,7 +160,7 @@ iframe {
 }
 
 .tablet {
-  background-image: url("/ResponsiveViewer/images/iPad-Pro.png");
+  background-image: url("/responsive-viewer/images/iPad-Pro.png");
   width: 246px;
   height: 400px;
   z-index: 3;
@@ -191,7 +191,7 @@ iframe {
 }
 
 .laptop {
-  background-image: url("/ResponsiveViewer/images/MacBook-Air.png");
+  background-image: url("/responsive-viewer/images/MacBook-Air.png");
   width: 477px;
   height: 307px;
   top: 200px;
@@ -224,7 +224,7 @@ iframe {
   position: absolute;
   width: 566px;
   height: 538px;
-  background-image: url("/ResponsiveViewer/images/iMac.png");
+  background-image: url("/responsive-viewer/images/iMac.png");
   top: 55px;
   left: 375px;
   z-index: 1;
