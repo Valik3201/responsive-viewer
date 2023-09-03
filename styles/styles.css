@@ -20,6 +20,16 @@ h1 {
   letter-spacing: -0.4px;
 }
 
+h1,
+h2,
+h3,
+p,
+ul,
+ol {
+  margin: 1rem;
+  padding: 1rem;
+}
+
 ul,
 ol {
   text-align: left;
@@ -29,7 +39,14 @@ footer {
   background: #f2f2f7;
   box-shadow: 0.5px 0px 0px 0px rgba(60, 60, 67, 0.36);
   padding: 2% 10%;
+  padding-top: 2rem;
 }
+
+/* @media screen and (min-width: 320px) {
+  body {
+    overflow-x: hidden;
+  }
+} */
 
 .dark-footer {
   background: #1c1c1e;
@@ -46,10 +63,12 @@ footer {
 
 .input-wrapper {
   max-width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 input[type="text"] {
-  width: 60%;
+  width: 50%;
   padding: 8px 16px;
   border: none;
   border-radius: 0.625rem;
