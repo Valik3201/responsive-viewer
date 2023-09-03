@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/ResponsiveViewer/styles/styles.css" />
+    <title>Responsive Viewer</title>
+  </head>
+  <body>
+    <div class="input-wrapper border">
+      <input type="text" id="url-input" placeholder="https://example.com" />
+      <button id="button" onclick="loadWebsite()">View Website</button>
+    </div>
+
+    <div class="border">
+      <div class="device-wrapper">
+        <div class="mobile">
+          <div class="frame">
+            <iframe id="mobile"></iframe>
+          </div>
+        </div>
+
+        <div class="desktop">
+          <div class="frame">
+            <iframe id="desktop"></iframe>
+          </div>
+        </div>
+        <div class="laptop">
+          <div class="frame">
+            <iframe id="laptop"></iframe>
+          </div>
+        </div>
+        <div class="tablet">
+          <div class="frame">
+            <iframe id="tablet"></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="info border">
+      <div>
+        <h1>See Your Website in Different Device Views</h1>
+        <h2>How It Works:</h2>
+        <ol>
+          <li>Enter your website's URL in the input field.</li>
+          <li>Click "View Website" to see the magic happen.</li>
+        </ol>
+      </div>
+      <div>
+        <h2>Witness Responsiveness:</h2>
+        <p>Discover how your website adapts to various device sizes:</p>
+        <ul>
+          <li>
+            <strong>Desktop View:</strong> Full desktop experience (2240px
+            ×1260px).
+          </li>
+          <li>
+            <strong>Laptop View:</strong> Optimized for laptops (1440px ×
+            900px).
+          </li>
+          <li>
+            <strong>Tablet View:</strong> Perfect for tablets (1024px × 1366px).
+          </li>
+          <li>
+            <strong>Mobile View:</strong> Mobile-friendly layout (393px x
+            852px).
+          </li>
+        </ul>
+      </div>
+      <div class="about">
+        <h2>About Responsive Viewer:</h2>
+        <p>
+          Responsive Viewer is a tool for creating visual presentations of your
+          projects. It's ideal for showcasing your work to clients and
+          stakeholders. <br />
+          Please note that this tool is not for testing your projects, but for
+          creating compelling visual presentations.
+        </p>
+        <p>
+          It primarily features device views inspired by Apple products, but it
+          can be used creatively for various project presentations.
+        </p>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <button id="light-theme">Light Theme</button>
+      <button id="dark-theme">Dark Theme</button>
+      <p>Designed to Showcase Your Projects Effectively</p>
+    </footer>
+
+    <script src="js/click.js"></script>
+    <script src="js/theme.js"></script>
+  </body>
+</html>

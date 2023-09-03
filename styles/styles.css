@@ -1,0 +1,284 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 18px;
+  font-weight: 200;
+  line-height: 1.5; /* 150% */
+  letter-spacing: -0.4px;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.dark-mode {
+  background-color: #121212;
+  color: #ffffff;
+}
+
+h1 {
+  font-weight: 700;
+  letter-spacing: -0.4px;
+}
+
+ul,
+ol {
+  text-align: left;
+}
+
+footer {
+  background: #f2f2f7;
+  box-shadow: 0.5px 0px 0px 0px rgba(60, 60, 67, 0.36);
+  padding: 2% 10%;
+}
+
+.dark-footer {
+  background: #1c1c1e;
+  color: #fff;
+}
+
+.border {
+  border-bottom: 0.333px solid rgba(0, 0, 0, 0.3);
+}
+
+.dark-border {
+  border-bottom: 0.333px solid rgba(255, 255, 255, 0.15);
+}
+
+.input-wrapper {
+  max-width: 100%;
+}
+
+input[type="text"] {
+  width: 60%;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 0.625rem;
+  background: rgba(118, 118, 128, 0.12);
+}
+
+input::placeholder {
+  color: rgba(60, 60, 67, 0.6);
+  letter-spacing: 0;
+  line-height: 1.23; /* 123.077% */
+}
+
+input:focus {
+  box-shadow: 0px 0px 0px 3px rgba(0, 122, 255, 0.5),
+    0px 0px 0px 0.5px rgba(0, 0, 0, 0.05),
+    0px 0.5px 2.5px 0px rgba(0, 0, 0, 0.3);
+}
+
+.dark-input {
+  background: rgba(118, 118, 128, 0.24);
+  color: #fff;
+}
+
+.dark-input::placeholder {
+  color: rgba(235, 235, 245, 0.6);
+}
+
+#button {
+  cursor: pointer;
+  text-align: center;
+  padding: 8px 16px;
+  border: none;
+  margin: 10px;
+  border-radius: 11px;
+  background: var(
+    --materials-controls-selection-focused,
+    linear-gradient(
+      0deg,
+      rgba(10, 130, 255, 0.75) 0%,
+      rgba(10, 130, 255, 0.75) 100%
+    ),
+    #0a82ff
+  );
+  background-blend-mode: normal, soft-light;
+
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+#button:hover {
+  opacity: 0.9;
+}
+
+.device-wrapper {
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  margin-top: 50px;
+  margin-bottom: 50px;
+  height: 600px;
+  width: 90%;
+}
+
+.device-wrapper div {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  overflow: hidden;
+}
+
+.frame {
+  overflow: hidden;
+}
+
+iframe {
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+.mobile {
+  background-image: url("/ResponsiveViewer/images/iPhone-14-Pro.png");
+  position: absolute;
+  width: 95px;
+  height: 196px;
+  top: 325px;
+  left: 990px;
+  z-index: 5;
+}
+
+.mobile iframe {
+  position: absolute;
+  width: 393px;
+  height: 795px;
+  top: 18px;
+  left: 6px;
+  border-bottom-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+  overflow-y: hidden;
+  transform: scale(0.23);
+  -webkit-transform: scale(0.212);
+  -o-transform: scale(0.219);
+  -ms-transform: scale(0.219);
+  -moz-transform: scale(0.219);
+  transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -moz-transform-origin: top left;
+}
+
+.tablet {
+  background-image: url("/ResponsiveViewer/images/iPad-Pro.png");
+  width: 246px;
+  height: 400px;
+  z-index: 3;
+  position: absolute;
+  left: 800px;
+  top: 200px;
+}
+
+.tablet iframe {
+  position: absolute;
+  width: 1023px;
+  height: 1368px;
+  top: 12px;
+  left: 13px;
+  border-radius: 18px;
+  overflow-y: hidden;
+  z-index: 0;
+  transform: scale(0.223);
+  -webkit-transform: scale(0.215);
+  -o-transform: scale(0.223);
+  -ms-transform: scale(0.223);
+  -moz-transform: scale(0.223);
+  transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -moz-transform-origin: top left;
+}
+
+.laptop {
+  background-image: url("/ResponsiveViewer/images/MacBook-Air.png");
+  width: 477px;
+  height: 307px;
+  top: 200px;
+  left: 50px;
+  position: absolute;
+  z-index: 2;
+}
+
+.laptop iframe {
+  position: absolute;
+  width: 1369px;
+  height: 855px;
+  top: 42px;
+  left: 49px;
+  overflow-x: hidden;
+  z-index: 1;
+  transform: scale(0.277);
+  -webkit-transform: scale(0.277);
+  -o-transform: scale(0.277);
+  -ms-transform: scale(0.277);
+  -moz-transform: scale(0.277);
+  transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -moz-transform-origin: top left;
+}
+
+.desktop {
+  position: absolute;
+  width: 566px;
+  height: 538px;
+  background-image: url("/ResponsiveViewer/images/iMac.png");
+  top: 55px;
+  left: 375px;
+  z-index: 1;
+}
+
+.desktop iframe {
+  position: absolute;
+  left: 26px;
+  top: 25px;
+  width: 1616px;
+  height: 910px;
+  transform: scale(0.3181);
+  -webkit-transform: scale(0.3181);
+  -o-transform: scale(0.3181);
+  -ms-transform: scale(0.3181);
+  -moz-transform: scale(0.3181);
+  transform-origin: top left;
+  -webkit-transform-origin: top left;
+  -o-transform-origin: top left;
+  -ms-transform-origin: top left;
+  -moz-transform-origin: top left;
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 50px;
+}
+
+#light-theme,
+#dark-theme {
+  cursor: pointer;
+  text-align: center;
+  padding: 8px 16px;
+  border: none;
+  margin: 2px;
+  border-radius: 11px;
+  background: var(
+    --materials-controls-selection-focused,
+    linear-gradient(
+      0deg,
+      rgba(10, 130, 255, 0.75) 0%,
+      rgba(10, 130, 255, 0.75) 100%
+    ),
+    #0a82ff
+  );
+  background-blend-mode: normal, soft-light;
+
+  color: #fff;
+  transition: background-color 0.3s ease;
+}
+#light-theme:hover,
+#dark-theme:hover {
+  opacity: 0.9;
+}
