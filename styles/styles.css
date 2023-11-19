@@ -10,10 +10,6 @@ body {
   text-align: center;
 }
 
-* {
-  transition-duration: 0.5s;
-}
-
 .dark-mode {
   background-color: #121212;
   color: #ffffff;
