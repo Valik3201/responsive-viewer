@@ -17,7 +17,7 @@ lightThemeButton.addEventListener("click", () => {
   footer.classList.remove("dark-footer");
 
   icons.forEach((icon) => {
-    icon.classList.remowe("dark-navbar-icon");
+    icon.classList.remove("dark-navbar-icon");
   });
 
   for (let i = 0; i < div.length; i++) {
