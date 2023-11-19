@@ -4,4 +4,6 @@ function loadWebsite() {
   document.getElementById("laptop").src = urlInput;
   document.getElementById("tablet").src = urlInput;
   document.getElementById("mobile").src = urlInput;
+  document.getElementById("laptop-d").src = urlInput;
+  document.getElementById("mobile-d").src = urlInput;
 }
